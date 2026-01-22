@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  background-color: #1f1f1f;
+  padding: 20px;
+}
+
+nav ul li a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ff00ff;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #6a0dad, #00bfff);
+}
+
+/* Cards, buttons, footer styling can be added later */

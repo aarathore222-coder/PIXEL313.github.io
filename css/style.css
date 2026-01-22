@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark background for streamer vibe */
+  color: #f1f1f1;
+}
+
+/* Navbar */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  background-color: #1f1f1f;
+  padding: 15px 20px;
+  margin: 0;
+}
+
+nav ul li a {
+  color: #00bfff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ff00ff;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #6a0dad, #00bfff);
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Button */
+.btn {
+  padding: 15px 30px;
+  background-color: #ff00ff;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1f1f1f;
+  margin-top: 50px;
+}
+/* Services Section */
+.services {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.services h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+}
+/* Contact Section */
+.contact {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.contact h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1.1em;
+  margin-bottom: 40px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.social-card {
+  background-color: #1f1f1f;
+  padding: 25px 20px;
+  border-radius: 12px;
+  width: 220px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.social-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 191, 255, 0.3);
+}
+
+.social-card h3 {
+  margin-bottom: 10px;
+  color: #00bfff;
+}
+
+.social-card p {
+  font-size: 1.1em;
+  color: #f1f1f1;
+}
